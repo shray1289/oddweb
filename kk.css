@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  row-gap: 50px;
+  column-gap: 50px;
+}
+.item {
+  background-color: rgb(249, 248, 248);
+  display: grid;
+  grid-template-rows: 220px auto;
+}
+.full {
+  display: grid;
+  grid-template-rows: 70px 400px 100px 300px;
+}
+.middle {
+  text-align: center;
+}
+.logo {
+  background-image: url(hhh.jpg);
+  padding-left: 70px;
+  padding-top: 100px;
+}
+.logo p {
+  font-family: "Times New Roman", Times, serif;
+}
+.header {
+  display: grid;
+  grid-template-columns: 70px 200px 500px 200px;
+}
+.header i {
+  font-size: 30px;
+  color: orange;
+}
+.head span {
+  font-size: 20px;
+}
+.head1 {
+  padding-left: 40px;
+  padding-top: 25px;
+}
+.head2 {
+  padding-left: 20px;
+  padding-top: 25px;
+}
+.head3 {
+  padding-left: 20px;
+  padding-top: 25px;
+}
+.head3 ul {
+  list-style-type: none;
+}
+.head3 ul li {
+  float: left;
+  padding-left: 17px;
+}
+.head4 {
+  padding: 20px;
+}
+
+.header1 {
+  background-image: url(t1.jpg);
+}
+.header2 {
+  background-image: url(t2.jpg);
+}
+.header3 {
+  background-image: url(t3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header4 {
+  background-image: url(t4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header5 {
+  background-image: url(t5.jpg);
+}
+.header6 {
+  background-image: url(t6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.middle {
+  padding-top: 30px;
+}
+.hem {
+  display: grid;
+  grid-template-columns: 70px auto;
+}
+.tail i {
+  font-size: 40px;
+  color: rgba(56, 74, 2, 0.7);
+}
+.tail {
+  padding-top: 13px;
+}
+.tail1 {
+  padding-left: 20px;
+}
+.tail2 {
+  padding-top: 20px;
+}
